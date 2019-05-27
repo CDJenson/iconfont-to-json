@@ -4,7 +4,7 @@
 # Install
 
 ```
-npm i iconfont-to-json -g
+npm i https://github.com/zoujunda/iconfont-to-json.git -g
 ```
 
 # Use
