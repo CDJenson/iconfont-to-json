@@ -20,7 +20,7 @@ class Iconfont {
       try {
         if(val.selectors[0].indexOf('.icon') !== -1 && val.selectors[0].indexOf('.iconfont') !== 0) {
 
-          let key = val.selectors[0].replace('.', '').replace(':before', '')
+          let key = val.selectors[0].replace('.icon', '').replace(':before', '')
           let base16 = val.declarations[0].value.replace(/\\/g, '').replace(/\"/g, '')
 
           outputJson[key] = parseInt(base16, 16)
